@@ -1,0 +1,1 @@
+std::vector<bool> is not the same as a vector of bits; it's a vector of objects that each store a boolean value.  This can lead to unexpected performance issues, especially for large vectors, because it's not memory-efficient and operations are slower. It involves more overhead for each boolean element.
